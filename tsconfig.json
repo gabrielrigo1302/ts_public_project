@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "es5",                      // Ensure compatibility with older Node.js versions
+      "module": "commonjs",                 // Use CommonJS modules for compatibility
+      "outDir": "lib",                      // Compile output directory
+      "strict": true,                       // Enable strict type checking
+      "noImplicitAny": true,                // Disallow implicit `any` type usage
+      "esModuleInterop": true,              // Allow for modern ES module imports
+      "declaration": true,                  // Generate type declaration files (.d.ts)
+      "allowSyntheticDefaultImports": true  // Allow importing default exports without curly braces
+    },
+    "include": ["src/**/*"]                 // Include all TypeScript files in the src directory
+  }
